@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Number Lookup | Pakistan & USA</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>📱 Number Lookup Tool</h1>
+
+  <!-- Pakistan Section -->
+  <div class="box">
+    <h2>🇵🇰 Pakistan Lookup</h2>
+    <input type="text" id="pakNumber" placeholder="Enter Pakistan number (03XXXXXXXXX)">
+    <button onclick="lookupPakistan()">Search</button>
+    <div id="pakResult" class="result"></div>
+  </div>
+
+  <!-- USA Section -->
+  <div class="box">
+    <h2>🇺🇸 USA Lookup</h2>
+    <input type="text" id="usaNumber" placeholder="Enter USA number">
+    <button onclick="lookupUSA()">Search</button>
+    <div id="usaResult" class="result"></div>
+  </div>
+
+  <footer>Created by Ehtisham</footer>
+  <script src="script.js"></script>
+</body>
+</html>
